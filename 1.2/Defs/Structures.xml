@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef Name="SlopedWall" ParentName="Wall">
+    <defName>SlopedWall</defName>
+    <label>sloped wall</label>
+    <description>A climbable sloped wall. Blocks line of sight but not movement. The flat leveled top is easy to stand on.</description>
+    <graphicData>
+      <texPath>Buildings/Linked/SlopedWallFlat</texPath>
+      <graphicClass>Graphic_Appearances</graphicClass>
+      <linkType>CornerFiller</linkType>
+    </graphicData>
+    <uiIconPath>UI/SlopedWall_north</uiIconPath>
+    <statBases>
+      <MaxHitPoints>250</MaxHitPoints>
+      <WorkToBuild>110</WorkToBuild>
+    </statBases>
+    <costStuffCount>4</costStuffCount>
+    <passability>Standable</passability>
+    <pathCost>20</pathCost>
+    <blockWind>false</blockWind>
+    <fillPercent>1</fillPercent>
+    <holdsRoof>false</holdsRoof>
+    <staticSunShadowHeight>0.6</staticSunShadowHeight>
+    <blockLight>true</blockLight>
+  </ThingDef>
+  <ThingDef ParentName="SlopedWall">
+    <defName>SlopedRidge</defName>
+    <label>sloped ridge</label>
+    <description>A climbable sloped barrier. Blocks line of sight but not movement, only impedes it. The narrow tops require some balance to walk across.</description>
+    <graphicData>
+      <texPath>Buildings/Linked/SlopedWall</texPath>
+      <graphicClass>Graphic_Appearances</graphicClass>
+      <linkType>Basic</linkType>
+    </graphicData>
+    <uiIconPath>UI/SlopedWall_east</uiIconPath>
+    <passability>PassThroughOnly</passability>
+    <pathCost>60</pathCost>
+  </ThingDef>
+</Defs>

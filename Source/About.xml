@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>SlopedWalls</name>
+  <author>BoeDankles</author>
+  <supportedVersions>
+    <li>1.1</li>
+  </supportedVersions>
+  <packageId>boe.slopedwalls</packageId>
+  <description>
+	
+	This mod adds climbable, sloped walls, also known as berms, that can be used in building strategic thresholds. If you're familiar with the Embrasures Mod, these are functionally the polar opposite of those. These walls block line of sight completely, and thus cannot be shot through, but they can still be climbed over rather easily. 
+	This allows you to create defensive thresholds, ambush zones for your melee fighters, control the range of engagement and much, much more. The wall's path cost (slowing effect) is in between that of sandbags and barricades, but is applied on each tile. They're slightly weaker than a regular wall, cost 4 resources (all materials available to walls) and can be found under the Structures tab.
+	
+
+	</description>
+</ModMetaData>
