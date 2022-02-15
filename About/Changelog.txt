@@ -1,4 +1,7 @@
 # Changelog for SlopedWalls
 
+1.3.1 - Added matching reinforced wall/ridge when [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2028381079]Vanilla Furniture Expanded - Spacer Module[/url] is loaded.
+
+
 1.0.0.0 - First publish
 
