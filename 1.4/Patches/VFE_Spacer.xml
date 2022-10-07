@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="Reinforced_WallAT"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs</xpath>
+      <value>
+        <ThingDef ParentName="SlopedWall">
+          <defName>SlopedReinforced_Wall</defName>
+          <label>reinforced sloped wall</label>
+          <description>A climbable reinforced sloped wall, created by layering materials over eachother. Blocks line of sight but not movement. The flat leveled top is easy to stand on.</description>
+          <graphicData>
+            <texPath>Buildings/Linked/ReinforcedWall/ReinforcedSlopedWall_Atlas</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <linkType>CornerFiller</linkType>
+          </graphicData>
+          <uiIconPath>Buildings/Linked/ReinforcedWall/ReinforcedSlopedWall_UI</uiIconPath>
+          <statBases>
+            <MaxHitPoints>700</MaxHitPoints>
+            <WorkToBuild>200</WorkToBuild>
+            <Flammability>0.2</Flammability>
+          </statBases>
+          <costStuffCount>10</costStuffCount>
+          <stuffCategories Inherit="False">
+            <li>Metallic</li>
+          </stuffCategories>
+          <researchPrerequisites>
+            <li>SpacerFurniture</li>
+          </researchPrerequisites>
+        </ThingDef>
+        <ThingDef ParentName="SlopedWall">
+          <defName>SlopedReinforced_Ridge</defName>
+          <label>reinforced sloped ridge</label>
+          <description>A climbable reinforced sloped barrier, created by layering materials over eachother. Blocks line of sight but not movement, only impedes it. The narrow tops require some balance to walk across.</description>
+          <graphicData>
+            <texPath>Buildings/Linked/ReinforcedWall/ReinforcedSlopedRidge_Atlas</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <linkType>Basic</linkType>
+          </graphicData>
+          <uiIconPath>Buildings/Linked/ReinforcedWall/ReinforcedSlopedRidge_UI</uiIconPath>
+          <statBases>
+            <MaxHitPoints>850</MaxHitPoints>
+            <WorkToBuild>250</WorkToBuild>
+            <Flammability>0.2</Flammability>
+          </statBases>
+          <costStuffCount>12</costStuffCount>
+          <passability>PassThroughOnly</passability>
+          <pathCost>60</pathCost>
+          <stuffCategories Inherit="False">
+            <li>Metallic</li>
+          </stuffCategories>
+          <researchPrerequisites>
+            <li>SpacerFurniture</li>
+          </researchPrerequisites>
+        </ThingDef>
+      </value>
+    </match>
+  </Operation>
+</Patch>

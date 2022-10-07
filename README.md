@@ -5,6 +5,8 @@
 Update of BoeDankless mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=2079811421
 
+- Added matching reinforced wall/ridge when https://steamcommunity.com/sharedfiles/filedetails/?id=2028381079]Vanilla Furniture Expanded - Spacer Module is loaded.
+
 ![Image](https://i.imgur.com/pufA0kM.png)
 
 	
@@ -37,5 +39,6 @@ After more extensive testing, I've encountered an issue that may occur from usin
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
+
 
 
