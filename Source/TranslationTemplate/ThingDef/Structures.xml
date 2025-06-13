@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: sloped ridge -->
+  <SlopedRidge.label>sloped ridge</SlopedRidge.label>
+  <!-- EN: A climbable sloped barrier. Blocks line of sight but not movement, only impedes it. The narrow tops require some balance to walk across. -->
+  <SlopedRidge.description>A climbable sloped barrier. Blocks line of sight but not movement, only impedes it. The narrow tops require some balance to walk across.</SlopedRidge.description>
+  <!-- EN: sloped wall -->
+  <SlopedWall.label>sloped wall</SlopedWall.label>
+  <!-- EN: A climbable sloped wall. Blocks line of sight but not movement. The flat leveled top is easy to stand on. -->
+  <SlopedWall.description>A climbable sloped wall. Blocks line of sight but not movement. The flat leveled top is easy to stand on.</SlopedWall.description>
+</LanguageData>
